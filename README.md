@@ -1,6 +1,6 @@
 ## lime-tree
 
-Примеры использования css-кода для настройки оформления [Obsidian.md][https://obsidian.md]
+Примеры использования css-кода для настройки оформления [Obsidian.md](https://obsidian.md)
 
 ## strike-through
 
