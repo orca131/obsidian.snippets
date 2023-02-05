@@ -1,0 +1,16 @@
+body {
+    --tab-stacked-header-width: 1px;
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container > * {
+    position: initial;
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner {
+    display: none;
+
+}
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header {
+    background-color: var(--color-base-35);
+}
+

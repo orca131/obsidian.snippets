@@ -1,0 +1,10 @@
+/* Полная копия поведения элементов в файловом менеджере */
+/* Строки overflow: visible/hidden отвечают за ползунок прокрутки */
+.tree-item-inner {
+    display: inline-block;
+    overflow-wrap: anywhere;
+    overflow: hidden;
+    /* overflow: visible; */
+    white-space: var(--nav-item-white-space);
+    text-overflow: ellipsis;
+}

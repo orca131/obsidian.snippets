@@ -1,0 +1,41 @@
+/* Цвет фона страницы в режиме всплывающего превью */
+.theme-light {
+	--color-r: #f28b82;
+	--color-o: #fbbc04;
+	--color-y: #fff475;
+	--color-g: #ccff90;
+	--color-c: #a7ffeb;
+	--color-b: #aecbfa;
+	--color-v: #d7aefb;
+	--color-p: #fdcfe8;
+}
+
+.theme-dark {
+	--color-r: #5c2b29;
+	--color-o: #614a19;
+	--color-y: #635d19;
+	--color-g: #345920;
+	--color-c: #16504b;
+	--color-b: #1e3a5f;
+	--color-v: #42275e;
+	--color-p: #5b2245;	
+}
+
+
+.markdown-embed .markdown-preview-view.color-r { background-color: var(--color-r) !important; }
+.markdown-embed .markdown-preview-view.color-o { background-color: var(--color-o) !important; }
+.markdown-embed .markdown-preview-view.color-y { background-color: var(--color-y) !important; }
+.markdown-embed .markdown-preview-view.color-g { background-color: var(--color-g) !important; }
+.markdown-embed .markdown-preview-view.color-c { background-color: var(--color-c) !important; }
+.markdown-embed .markdown-preview-view.color-b { background-color: var(--color-b) !important; }
+.markdown-embed .markdown-preview-view.color-v { background-color: var(--color-v) !important; }
+.markdown-embed .markdown-preview-view.color-p { background-color: var(--color-p) !important; }
+
+.internal-embed[alt*="color-r"] .markdown-embed .markdown-preview-view { background-color: var(--color-r) !important; }
+.internal-embed[alt*="color-o"] .markdown-embed .markdown-preview-view { background-color: var(--color-o) !important; }
+.internal-embed[alt*="color-y"] .markdown-embed .markdown-preview-view { background-color: var(--color-y) !important; }
+.internal-embed[alt*="color-g"] .markdown-embed .markdown-preview-view { background-color: var(--color-g) !important; }
+.internal-embed[alt*="color-c"] .markdown-embed .markdown-preview-view { background-color: var(--color-c) !important; }
+.internal-embed[alt*="color-b"] .markdown-embed .markdown-preview-view { background-color: var(--color-b) !important; }
+.internal-embed[alt*="color-v"] .markdown-embed .markdown-preview-view { background-color: var(--color-v) !important; }
+.internal-embed[alt*="color-p"] .markdown-embed .markdown-preview-view { background-color: var(--color-p) !important; }

@@ -1,0 +1,18 @@
+/* Активная вкладка - задать скругление всех углов */
+body {
+    --tab-radius-active: 4px;
+}
+/* Активная вкладка - убрать обратные скругления */
+.workspace-split.mod-root .workspace-tab-header.is-active::before, .workspace-split.mod-root .workspace-tab-header.is-active::after {
+    box-shadow: none;
+}
+
+/* Активная вкладка - задать отступы от края */
+.workspace-tab-header-container-inner {
+    margin: 2px -6px;
+}
+
+/* Активная вкладка - добавить отступ снизу [padding: Сверху | По горизонтали | Снизу ] */
+.mod-root .workspace-tab-header-container-inner {
+    padding: 1px 12px 1px;
+}

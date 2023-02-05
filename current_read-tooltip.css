@@ -1,0 +1,6 @@
+.tooltip {
+	text-align: end;
+	font-variant-numeric: tabular-nums;
+	min-width: max-content;
+}
+

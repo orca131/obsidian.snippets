@@ -1,0 +1,4 @@
+/* hide-metatable */
+.markdown-preview-view .markdown-embed-content .obsidian-metatable { display: none; }
+.popover .markdown-preview-view .obsidian-metatable { display: none; }
+.markdown-source-view .obsidian-metatable { display: none; }

@@ -1,0 +1,14 @@
+del, .cm-strikethrough, .cm-hmd-internal-link.cm-strikethrough {
+	text-decoration: line-through !important;
+	text-decoration-thickness: 1.2em !important;
+	text-decoration-color: var(--text-muted) !important;
+}
+
+del:hover, .cm-strikethrough:hover,
+.cm-hmd-internal-link.cm-strikethrough:hover,
+.cm-link-alias-pipe.cm-strikethrough,
+.cm-strikethrough.cm-formatting,
+.cm-strikethrough.cm-formatting-link-start,
+.cm-strikethrough.cm-formatting-link-end {
+	text-decoration: none !important;
+}

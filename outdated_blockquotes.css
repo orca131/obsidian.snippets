@@ -1,0 +1,16 @@
+/* accented-quotes */
+.markdown-preview-view blockquote {
+	max-height: 250px;
+	overflow: auto;
+	background-color: var(--scrollbar-thumb-bg);
+	border-radius: 0px 6px 6px 0px !important;
+	border-left: 5px var(--scrollbar-active-thumb-bg) solid;
+	padding: 12px 28px;
+	position: relative;
+	transition: all 0.5s ease-in-out;
+}
+
+.markdown-preview-view blockquote:hover {
+	border-color: var(--interactive-accent);
+	box-shadow: 4px 4px 5px var(--background-modifier-border);
+}

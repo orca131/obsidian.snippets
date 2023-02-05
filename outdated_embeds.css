@@ -1,0 +1,120 @@
+/* выключить отображение заголовка */
+.markdown-preview-view .markdown-embed-title {
+	display: none;
+}
+
+/* выключить отображение заголовка встроенного поиска */
+.markdown-preview-view .internal-query-header {
+	display: none;
+}
+
+/* настроить отуп текста от каря контейнера в live preview */
+.internal-embed .markdown-embed {
+	padding: 1px 2px 1px 2px;
+}
+
+/* выключить отображение заголовка в live preview */
+.internal-embed .markdown-embed-title {
+	display: none;
+}
+
+/* задать скругление краёв встроенного блока в live preview */
+.markdown-source-view .markdown-embed, .markdown-source-view .file-embed {
+	border-radius: 7px;
+}
+
+/* выключить отображение заголовка встроенного поиска в live preview */
+.cm-embed-block .internal-query-header {
+	display: none;
+}
+
+/* настроить отступ текста от края контейнера */
+.markdown-embed .markdown-preview-view {
+	padding: 0px 24px;
+}
+
+/* Встраиваемый блок 
+.markdown-embed-title, .file-embed-title {
+	display: none;
+}
+
+.markdown-source-view .markdown-embed, .markdown-source-view .file-embed {
+    border: none;
+}
+
+.markdown-embed, .file-embed {
+    border: none;
+}
+
+.markdown-embed .markdown-preview-view {
+    padding: 0px 24px;
+}
+*/
+
+/*выключить границы встроенных документов
+.markdown-embed {
+	border: none;
+}		
+*/
+/*насроить расстояние между последним элементом и границей
+.markdown-preview-view .markdown-embed-content>:first-child {
+	margin-top: 0;
+}
+.markdown-preview-view .markdown-embed-content>:last-child {
+	margin-bottom: 0;
+}
+*/
+/*настроить отступы от краёв
+.markdown-preview-view .markdown-embed-content > .markdown-preview-view {
+	padding: 0px 24px;
+}
+
+
+.internal-query {
+	outline: 1px solid var(--text-faint);
+}
+
+
+.markdown-embed-content {
+	outline: 1px solid var(--text-faint);
+}
+
+
+.markdown-embed-content {
+	padding: 0px;
+}
+*/
+
+/* live-preview 
+.markdown-source-view .markdown-embed, .markdown-source-view .file-embed {
+    border: none;
+    padding-left: 8px;
+	padding-right: 4px;
+    margin: 0px;
+}*/
+/*
+.markdown-embed-title, .file-embed-title { display: none; }
+
+.markdown-embed .markdown-preview-view {
+    padding: 0px;
+}
+
+.popover.hover-popover .markdown-embed { 
+	heigh: auto;
+	max-height: 300px;
+}
+*/
+/*
+.markdown-source-view .markdown-embed, .markdown-source-view .file-embed {
+    border: 2px solid var(--background-modifier-border);
+    border-radius: 5px;
+    padding: 0px 20px;
+    margin: 0;
+}
+
+.markdown-embed, .file-embed {
+    border-top: 1px solid var(--background-modifier-border);
+    border-bottom: 1px solid var(--background-modifier-border);
+    padding: 4px 0;
+    margin: 28px 0;
+}*/
