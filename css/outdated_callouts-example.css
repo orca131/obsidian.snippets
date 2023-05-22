@@ -1,0 +1,19 @@
+.callout[data-callout="links"] {
+    --callout-icon: none;
+}
+/*
+.callout[data-callout="nsew"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: none;
+}
+
+.callout[data-callout="nsew"]  .callout-title-inner {
+    display: none;
+}
+.callout[data-callout="nsew"] .callout-title { 
+    justify-content: center;
+}
+.callout[data-callout="nsew"] .callout-title::before {
+    content: '🧭';
+}
+*/
