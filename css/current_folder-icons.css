@@ -3,7 +3,8 @@
 }
 
 .nav-folder-title-content {
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-family: monospace;
 }
 .nav-folder-title-content::before {
     margin-right: 0.2em;
@@ -15,6 +16,7 @@
 .nav-folder-title[data-path="dart"]     .nav-folder-title-content::before { content: "📗"; }
 .nav-folder-title[data-path="flow"]     .nav-folder-title-content::before { content: "📙"; }
 .nav-folder-title[data-path="lake"]     .nav-folder-title-content::before { content: "📗"; }
+.nav-folder-title[data-path="void"]     .nav-folder-title-content::before { content: "📙"; }
 .nav-folder-title[data-path="ward"]     .nav-folder-title-content::before { content: "📗"; }
 .nav-folder-title[data-path="yarn"]     .nav-folder-title-content::before { content: "📙"; }
 
