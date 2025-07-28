@@ -1,0 +1,4 @@
+/* Disable list all tabs */
+.workspace-tab-header-tab-list {
+    display: none !important;
+}

@@ -1,4 +1,4 @@
-del, .cm-strikethrough, .cm-hmd-internal-link.cm-strikethrough {
+.markdown-preview-view del, .cm-strikethrough:not(.cm-formatting-strikethrough) {
 	text-decoration: line-through !important;
 	text-decoration-thickness: 1.2em !important;
 	text-decoration-color: var(--text-muted) !important;

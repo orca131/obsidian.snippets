@@ -1,0 +1,9 @@
+.canvas-node:not(.is-editing) .canvas-node-container:has(.transparent) {
+  background-color: transparent !important;
+  
+  .canvas-node-content  {
+    background: unset;
+    /* background-color: transparent !important; */
+  }
+}
+

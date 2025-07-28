@@ -1,0 +1,14 @@
+/* Fix tab header padding */
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container {
+    padding-right: calc(var(--size-4-2) + var(--frame-left-space));
+}
+
+/* Disable system buttons container */
+.workspace-tabs .workspace-tab-header-container::after {
+    display: none !important;
+}
+
+/* Disable system buttons  */
+.titlebar-inner {
+    display: none;
+}

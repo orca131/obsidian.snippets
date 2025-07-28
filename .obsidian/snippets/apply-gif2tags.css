@@ -1,0 +1,21 @@
+/* Hide hash symbol */
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-poring        { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-drops         { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-poporing      { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-marin         { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-pouring       { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-deviling      { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-next          { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-book          { display: none; }
+:not(.cm-active.cm-line) > .cm-hashtag-begin.cm-tag-anime         { display: none; }
+
+/* Replace tags with animations */
+:not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-poring,     .tag[href="#poring"]    { content: url(https://rurowiki.ru/media/monsters/1002.gif); }
+:not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-drops,      .tag[href="#drops"]		  { content: url(https://rurowiki.ru/media/monsters/1113.gif); }
+:not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-poporing,   .tag[href="#poporing"]	{ content: url(https://rurowiki.ru/media/monsters/1031.gif); }
+:not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-marin,      .tag[href="#marin"]		  { content: url(https://rurowiki.ru/media/monsters/1242.gif); }
+:not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-pouring,    .tag[href="#pouring"]	  { content: url(https://rurowiki.ru/media/monsters/1894.gif); }
+:not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-deviling,   .tag[href="#deviling"]	{ content: url(https://rurowiki.ru/media/monsters/1582.gif); }
+// :not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-next,       .tag[href="#next"]      { max-height: 1.7em; content: url(https://cdn.discordapp.com/attachments/242504181645180928/1200134594477965332/10-frogs-and-toads.gif); }
+// :not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-book,       .tag[href="#book"]      { max-height: 1.7em; content: url(https://cdn.discordapp.com/attachments/1188161680069365800/1201542280411086978/03-frogs-and-toads.gif); }
+// :not(.cm-active.cm-line) > .cm-hashtag-end.cm-tag-anime,      .tag[href="#anime"]    { max-height: 1.7em; content: url(https://cdn.discordapp.com/attachments/1188161680069365800/1201836157525307464/22-frogs-and-toads.gif); }

@@ -1,0 +1,19 @@
+.metadata-container.is-collapsed:not(:hover) .metadata-properties-heading {
+    display: none;
+}
+
+.metadata-container .metadata-property:not(:hover):not(:focus-within) .multi-select-container {
+    max-height: 1rem;
+}
+
+.metadata-properties-heading .collapse-indicator {
+    display: none;
+}
+
+.metadata-container .metadata-add-button {
+    display: none;
+}
+
+.metadata-container {
+    margin-block-end: auto;
+}

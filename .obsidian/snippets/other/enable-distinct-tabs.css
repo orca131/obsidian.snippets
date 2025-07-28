@@ -1,0 +1,14 @@
+/* Set tab radius */
+body {
+    --tab-radius-active: var(--input-radius);
+}
+
+/* Disable revers radius */
+.workspace-split.mod-root .workspace-tab-header.is-active::before, .workspace-split.mod-root .workspace-tab-header.is-active::after {
+    box-shadow: none;
+}
+
+/* Set tab margin */
+.workspace-tab-header-container-inner {
+    margin: var(--size-2-1);
+}

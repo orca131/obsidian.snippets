@@ -1,0 +1,4 @@
+/* Disable sidebar toggles */
+.sidebar-toggle-button {
+    display: none;
+}

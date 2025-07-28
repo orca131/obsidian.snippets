@@ -1,0 +1,12 @@
+/* Apply buttons decoration for bold */
+.buttons .cm-strong:not(.cm-formatting-strong), .buttons.strong, .buttons.markdown-preview-view strong {
+  background-color: #eee;
+  background-image: linear-gradient(180deg,#ddd,#eee,#fff);
+  border-radius: .1875rem;
+  box-shadow: 0 -.0625rem #fff,0 .0625rem 0 .1875rem #aaa;
+  font-size: 90%;
+  font-weight: 400;
+  margin: 0 .25rem;
+  padding: .125rem .375rem;
+  white-space: nowrap;
+}

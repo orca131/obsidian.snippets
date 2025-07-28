@@ -1,4 +1,4 @@
-/* Цвет фона страницы в режиме всплывающего превью */
+/* Keep color it */
 .theme-light {
 	--color-r: #f28b82;
 	--color-o: #fbbc04;
@@ -20,7 +20,6 @@
 	--color-v: #42275e;
 	--color-p: #5b2245;	
 }
-
 
 .markdown-embed .markdown-preview-view.color-r { background-color: var(--color-r) !important; }
 .markdown-embed .markdown-preview-view.color-o { background-color: var(--color-o) !important; }

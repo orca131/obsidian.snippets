@@ -1,0 +1,6 @@
+/* add underline to italic */
+
+.cm-em, .em {
+    text-decoration: underline;
+}
+
