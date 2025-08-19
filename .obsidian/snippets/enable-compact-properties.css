@@ -17,3 +17,7 @@
 .metadata-container {
     margin-block-end: auto;
 }
+
+.metadata-properties-heading {
+    width: 100%;
+}
