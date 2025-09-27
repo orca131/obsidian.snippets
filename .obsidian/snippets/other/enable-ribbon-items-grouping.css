@@ -1,0 +1,9 @@
+/* Set actions container height to 100% */
+.side-dock-actions {
+    height: 100%;
+}
+
+/* Pin last 3 items at the end */
+.side-dock-actions .side-dock-ribbon-action:nth-last-child(3) {
+    margin-top: auto;
+}
