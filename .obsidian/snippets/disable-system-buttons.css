@@ -1,14 +1,28 @@
-/* Fix tab header padding */
-.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container {
-    padding-right: calc(var(--size-4-2) + var(--frame-left-space));
+/* Pin right sidebar toggle button to the right edge */
+.workspace.is-right-sidedock-open .sidebar-toggle-button.mod-right {
+    padding: 4px;
+    pointer-events: auto;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
 }
 
 /* Disable system buttons container */
-.workspace-tabs .workspace-tab-header-container::after {
-    display: none !important;
+.mod-linux .titlebar-button-container, .mod-windows .titlebar-button-container {
+    display: none;
 }
 
-/* Disable system buttons  */
-.titlebar-inner {
+/* Set spacing for right sidebar toggle button */
+.mod-windows, .mod-linux {
+    --frame-right-space: 36px;
+}
+
+/* Shrink empty space after tab header container */
+.workspace:not(.is-right-sidedock-open) .workspace-tab-header-container {
+    padding-right: var(--size-4-2) !important;
+}
+
+/* Disable system buttons container */
+.workspace:not(.is-right-sidedock-open) .workspace-tab-header-container::after {
     display: none;
 }
