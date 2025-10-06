@@ -1,28 +1,17 @@
 /* Pin right sidebar toggle button to the right edge */
-.workspace.is-right-sidedock-open .sidebar-toggle-button.mod-right {
-    padding: 4px;
-    pointer-events: auto;
+.sidebar-toggle-button.mod-right {
+    padding-right: 4px;
     position: fixed;
     right: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 
-/* Disable system buttons container */
-.mod-linux .titlebar-button-container, .mod-windows .titlebar-button-container {
-    display: none;
-}
-
-/* Set spacing for right sidebar toggle button */
+/* Fix right sidebar toggle button spacing */
 .mod-windows, .mod-linux {
     --frame-right-space: 36px;
 }
 
-/* Shrink empty space after tab header container */
-.workspace:not(.is-right-sidedock-open) .workspace-tab-header-container {
-    padding-right: var(--size-4-2) !important;
-}
-
 /* Disable system buttons container */
-.workspace:not(.is-right-sidedock-open) .workspace-tab-header-container::after {
+.mod-linux .titlebar-button-container, .mod-windows .titlebar-button-container {
     display: none;
 }
