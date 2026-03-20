@@ -1,0 +1,54 @@
+/* Disable left sidebar container */
+body:not(.is-mobile)
+    .workspace-split.mod-left-split
+    .workspace-sidedock-vault-profile {
+    display: none;
+}
+/* Commander items styling */
+body:not(.is-mobile) .status-bar-item[class^="cmdr"] {
+    position: fixed;
+    left: 8px;
+    bottom: 8px;
+    z-index: 100;
+
+    background-color: var(--background-primary);
+    box-shadow: 1px -1px 6px rgba(0, 0, 0, 0.16);
+}
+/* Calculate vertical offset */
+body:not(.is-mobile) .status-bar-item[class^="cmdr"] {
+    --stack-index: 0;
+    bottom: calc(8px + var(--stack-index) * 32px);
+}
+/* Automatically assign index via :nth-child in reverse DOM order */
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(1 of [class^="cmdr"]) {
+    --stack-index: 0;
+}
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(2 of [class^="cmdr"]) {
+    --stack-index: 1;
+}
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(3 of [class^="cmdr"]) {
+    --stack-index: 2;
+}
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(4 of [class^="cmdr"]) {
+    --stack-index: 3;
+}
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(5 of [class^="cmdr"]) {
+    --stack-index: 4;
+}
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(6 of [class^="cmdr"]) {
+    --stack-index: 5;
+}
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(7 of [class^="cmdr"]) {
+    --stack-index: 6;
+}
+body:not(.is-mobile)
+    .status-bar-item[class^="cmdr"]:nth-child(8 of [class^="cmdr"]) {
+    --stack-index: 7;
+}
