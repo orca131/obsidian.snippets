@@ -10,9 +10,7 @@ body:not(.is-mobile) .status-bar-item[class^="cmdr"] {
     left: 8px;
     bottom: 8px;
     z-index: 100;
-
-    background-color: var(--background-primary);
-    box-shadow: 1px -1px 6px rgba(0, 0, 0, 0.16);
+    margin: auto;
 }
 /* Calculate vertical offset */
 body:not(.is-mobile) .status-bar-item[class^="cmdr"] {
