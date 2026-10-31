@@ -11,25 +11,29 @@
     margin-block-end: auto;
     padding: 0;
 }
+
 .metadata-properties-heading {
     line-height: 1.2;
     margin-bottom: 0;
     padding: 0;
 }
+
 /* Hide collapse indicator */
 .metadata-properties-heading .collapse-indicator {
     display: none;
 }
+
 /* Hide 'Add property' button */
 .metadata-container .metadata-add-button {
     display: none;
 }
 
 /* Reduce gap between view header and properties container */
-.view-content>.markdown-reading-view .markdown-preview-view,
-.view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller {
+.view-content > .markdown-reading-view .markdown-preview-view,
+.view-content > .markdown-source-view.mod-cm6 > .cm-editor > .cm-scroller {
     padding-top: 8px;
 }
+
 /* Hide properties on hover preview */
 .popover.hover-popover .mod-header.mod-ui .metadata-container:not(is-editing) {
     display: none;
