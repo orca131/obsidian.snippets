@@ -1,23 +1,36 @@
-.metadata-container.is-collapsed:not(:hover) .metadata-properties-heading {
-    display: none;
+/* Calm down properties heading */
+.metadata-properties-heading .metadata-properties-title {
+    color: var(--text-faint);
+    transition: color 0.3s ease-out;
 }
-
-.metadata-container .metadata-property:not(:hover):not(:focus-within) .multi-select-container {
-    max-height: 1rem;
+.metadata-properties-heading:hover .metadata-properties-title {
+    color: var(--text-normal);
 }
-
+/* Squash unnecessary spacing around properties container */
+.metadata-container {
+    margin-block-end: auto;
+    padding: 0;
+}
+.metadata-properties-heading {
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding: 0;
+}
+/* Hide collapse indicator */
 .metadata-properties-heading .collapse-indicator {
     display: none;
 }
-
+/* Hide 'Add property' button */
 .metadata-container .metadata-add-button {
     display: none;
 }
 
-.metadata-container {
-    margin-block-end: auto;
+/* Reduce gap between view header and properties container */
+.view-content>.markdown-reading-view .markdown-preview-view,
+.view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller {
+    padding-top: 8px;
 }
-
-.metadata-properties-heading {
-    width: 100%;
+/* Hide properties on hover preview */
+.popover.hover-popover .mod-header.mod-ui .metadata-container:not(is-editing) {
+    display: none;
 }
