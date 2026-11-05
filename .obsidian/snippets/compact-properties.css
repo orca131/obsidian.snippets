@@ -1,11 +1,28 @@
+body {
+    --metadata-input-font-size: 0.7em;
+    --metadata-label-font-size: 0.7em;
+    --metadata-input-height: 1.5em;
+    --metadata-gap: 0px;
+}
+
+/* Set line height */
+.metadata-property-key,
+.metadata-property-value {
+    display: flex;
+    align-items: center;
+    line-height: 1em;
+}
+
 /* Calm down properties heading */
 .metadata-properties-heading .metadata-properties-title {
     color: var(--text-faint);
     transition: color 0.3s ease-out;
 }
+
 .metadata-properties-heading:hover .metadata-properties-title {
     color: var(--text-normal);
 }
+
 /* Squash unnecessary spacing around properties container */
 .metadata-container {
     margin-block-end: auto;
@@ -16,6 +33,11 @@
     line-height: 1.2;
     margin-bottom: 0;
     padding: 0;
+}
+
+.metadata-container.is-collapsed {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /* Hide collapse indicator */
@@ -29,8 +51,8 @@
 }
 
 /* Reduce gap between view header and properties container */
-.view-content > .markdown-reading-view .markdown-preview-view,
-.view-content > .markdown-source-view.mod-cm6 > .cm-editor > .cm-scroller {
+.view-content>.markdown-reading-view .markdown-preview-view,
+.view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller {
     padding-top: 8px;
 }
 

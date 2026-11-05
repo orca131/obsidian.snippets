@@ -1,0 +1,17 @@
+/* This snippet hides window frame, effectively removing the system buttons */
+/* Settings -> Interface -> Window frame style -> Obsidian frame */
+
+/* Fix sidebar toggle button padding */
+.mod-root .sidebar-toggle-button {
+    padding-inline: 0;
+}
+
+/* Disable heading */
+body.is-frameless:not(.is-hidden-frameless, .is-fullscreen, .is-popout-modal) .titlebar {
+    display: none;
+}
+
+/* Disable heading spacing */
+body.is-frameless:not(.is-hidden-frameless, .is-fullscreen, .is-popout-modal) {
+    padding-top: 0;
+}

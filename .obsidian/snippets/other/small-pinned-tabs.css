@@ -1,0 +1,9 @@
+/* Shrink pinned tab */
+.workspace-tab-header:has(.mod-pinned) {
+    max-width: 60px;
+}
+
+/* Hide pinned tab title */
+.workspace-tab-header:has(.mod-pinned) .workspace-tab-header-inner-title {
+    display: none;
+}
