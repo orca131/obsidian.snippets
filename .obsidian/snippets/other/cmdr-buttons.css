@@ -1,11 +1,11 @@
-/* Disable left sidebar container */
+/* Disable sidebar dock */
 body:not(.is-mobile)
     .workspace-split.mod-left-split
     .workspace-sidedock-vault-profile {
     display: none;
 }
 
-/* Disable custom Commander spacing*/
+/* Disable custom Commander spacing */
 .cmdr-custom-spacing .side-dock-ribbon-action:not(:last-child) {
     margin: 0 auto;
 }
